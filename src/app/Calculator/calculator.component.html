@@ -1,0 +1,12 @@
+<div class="card">
+  <input [(ngModel)]="num1" type="number">
+  <input [(ngModel)]="num2" type="number">
+  <br>
+  <button (click)="addition()">Sum</button>
+  <button (click)="minus()">minus</button>
+  <button (click)="div()">div</button>
+  <button (click)="mult()">mult</button>
+  <div class="footer">
+    Result of {{num1}} and {{num2}} is {{result}}
+  </div>
+</div>
